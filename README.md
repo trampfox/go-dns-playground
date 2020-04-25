@@ -75,7 +75,7 @@ If you try to force the `cgo` resolver the program doesn't fail, but it takes a 
 
 On Linux you can use both methods by setting the `GODEBUG=netdns` environment variable.
 
-go
+#### Go
 
 ```bash
 $ GODEBUG=netdns=go go run main.go
@@ -84,7 +84,7 @@ $ GODEBUG=netdns=go go run main.go
 2020/04/25 16:58:24 lookupAddr took 697.97µs
 ```
 
-cgo
+#### cgo
 
 ```bash
 $ GODEBUG=netdns=go go run main.go
